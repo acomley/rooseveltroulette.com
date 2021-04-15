@@ -1,6 +1,6 @@
 import 'alpinejs'
 
-import { drinks, Drink } from './data'
+import { random } from './drinks'
 
 declare global {
   interface Window {
@@ -9,16 +9,10 @@ declare global {
 }
 
 function init() {
-  const drink = drinks[0]
   return {
-    ...drink,
+    drink: random(),
     spin() {
-      console.log('spin')
-      const next = drinks[1]
-      this.category = next.category
-      this.description = next.description
-      this.img = next.img
-      this.name = next.name
+      this.drink = random()
     },
   }
 }

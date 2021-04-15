@@ -4,10 +4,10 @@
   "description": "A cocktail randomizer for The Roosevelt Room",
   "main": "index.js",
   "scripts": {
-    "build:local:css": "postcss src/css/tailwind.css --output www/css/tailwind.css --watch",
-    "build:local:js": "esbuild src/ts/index.ts --bundle --sourcemap=inline --target=es2018 --outfile=www/js/index.js --servedir=www",
-    "build:release:css": "NODE_ENV=production postcss src/css/tailwind.css --output www/css/tailwind.css",
-    "build:release:js": "esbuild src/ts/index.ts --bundle --minify --target=es2018 --outfile=www/js/index.js",
+    "build:local:css": "postcss src/css/tailwind.css --output docs/css/tailwind.css --watch",
+    "build:local:js": "esbuild src/ts/index.ts --bundle --sourcemap=inline --target=es2018 --outfile=docs/js/index.js --servedir=docs",
+    "build:release:css": "NODE_ENV=production postcss src/css/tailwind.css --output docs/css/tailwind.css",
+    "build:release:js": "esbuild src/ts/index.ts --bundle --minify --target=es2018 --outfile=docs/js/index.js",
     "fmt": "prettier --write '*.{yml,json,md,js}' 'src/**/*.{js,ts}'",
     "release": "concurrently \"npm:build:release:*\"",
     "start": "concurrently \"npm:build:local:*\""
