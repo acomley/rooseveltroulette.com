@@ -4,9 +4,13 @@
   "description": "A cocktail randomizer for The Roosevelt Room",
   "main": "index.js",
   "scripts": {
-    "build:css": "postcss styles.css -o compiled.css"
-    "fmt": "prettier --write '*.{yml,json,md,js}' '{src}/**/*.{js,ts}'",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build:local:css": "postcss src/css/tailwind.css --output www/css/tailwind.css --watch",
+    "build:local:js": "esbuild src/ts/index.ts --bundle --sourcemap=inline --target=es2018 --outfile=www/js/index.js --servedir=www",
+    "build:release:css": "NODE_ENV=production postcss src/css/tailwind.css --output www/css/tailwind.css",
+    "build:release:js": "esbuild src/ts/index.ts --bundle --minify --target=es2018 --outfile=www/js/index.js",
+    "fmt": "prettier --write '*.{yml,json,md,js}' 'src/**/*.{js,ts}'",
+    "release": "concurrently \"npm:build:release:*\"",
+    "start": "concurrently \"npm:build:local:*\""
   },
   "repository": {
     "type": "git",
@@ -19,7 +23,9 @@
   },
   "homepage": "https://github.com/acomley/rooseveltroulette.com#readme",
   "devDependencies": {
+    "alpinejs": "^2.8.2",
     "autoprefixer": "^10.2.5",
+    "concurrently": "^6.0.2",
     "esbuild": "^0.11.10",
     "postcss": "^8.2.10",
     "postcss-cli": "^8.3.1",
