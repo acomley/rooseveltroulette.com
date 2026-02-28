@@ -114,6 +114,7 @@ function init() {
   const reelTrack = document.getElementById('reel-track') as HTMLElement
   const emptyState = document.getElementById('empty-state') as HTMLElement
   const filter = document.getElementById('category-filter') as HTMLSelectElement
+  const announce = document.getElementById('announce') as HTMLElement
   let lastDrink: Drink | undefined
   let spinning = false
   let cardHeight = reelFrame.offsetHeight
@@ -152,6 +153,7 @@ function init() {
     spinning = true
     button.disabled = true
     button.classList.add('spinning')
+    button.textContent = 'SPINNING...'
     emptyState.hidden = true
 
     // Init audio on first user gesture
@@ -240,7 +242,14 @@ function init() {
       // Re-enable
       button.disabled = false
       button.classList.remove('spinning')
+      button.textContent = 'SPIN'
       spinning = false
+
+      // Announce winner to screen readers
+      announce.textContent = ''
+      requestAnimationFrame(() => {
+        announce.textContent = `You got: ${winner.name}`
+      })
     }
   }
 

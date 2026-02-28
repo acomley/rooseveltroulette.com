@@ -7,14 +7,14 @@
     <link rel="shortcut icon" href="img/favicon.ico" />
     <link rel="apple-touch-icon" sizes="76x76" href="img/apple-icon.png" />
     <title>Roosevelt Roulette</title>
-    <script type="module" crossorigin src="/assets/index-Bbma7Hrd.js"></script>
-    <link rel="stylesheet" crossorigin href="/assets/index-VIxOrM7s.css">
+    <script type="module" crossorigin src="/assets/index-DwNXjdRa.js"></script>
+    <link rel="stylesheet" crossorigin href="/assets/index-Dl53ltB3.css">
   </head>
   <body>
     <main class="machine">
-      <header class="machine-header">Roosevelt Roulette</header>
+      <h1 class="machine-header">Roosevelt Roulette</h1>
       <div class="controls">
-        <select id="category-filter" class="category-filter">
+        <select id="category-filter" class="category-filter" aria-label="Filter cocktails by category">
           <option value="">ALL CATEGORIES</option>
         </select>
       </div>
@@ -23,10 +23,11 @@
         <div class="reel-mask reel-mask--bottom"></div>
         <div id="reel-track" class="reel-track"></div>
         <div id="empty-state" class="empty-state">
-          Spin the wheel. Find your drink.
+          Pick a category or just hit SPIN.
         </div>
       </div>
-      <button id="spin-button" type="button" class="spin-button">SPIN</button>
+      <button id="spin-button" type="button" class="spin-button" aria-label="Spin to get a random cocktail">SPIN</button>
+      <div id="announce" class="sr-only" aria-live="polite" aria-atomic="true"></div>
     </main>
   </body>
 </html>
