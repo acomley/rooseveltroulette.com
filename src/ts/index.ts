@@ -7,10 +7,10 @@ const CATEGORY_COLORS: Record<string, string> = {
   'EARLY YEARS (PRE-1880)': '#eab308',
   'TURN OF THE CENTURY (1880-1919)': '#22c55e',
   'PROHIBITION (1920-1933)': '#ef4444',
-  'POST VOLSTEAD (1933-1950S)': '#a78bfa',
-  'TIKI (1930S-1970S)': '#2dd4bf',
-  'DARK AGES (1950S-1990S)': '#818cf8',
-  'MODERN CLASSICS (2000S-PRESENT)': '#f472b6',
+  'POST VOLSTEAD (1933-1950s)': '#a78bfa',
+  'TIKI (1930s-1970s)': '#2dd4bf',
+  'DARK AGES (1950s-1990s)': '#818cf8',
+  'MODERN CLASSICS (2000s-PRESENT)': '#f472b6',
 }
 
 const FALLBACK_IMG = `data:image/svg+xml,${encodeURIComponent(
