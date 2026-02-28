@@ -34,37 +34,43 @@ const drinks: Drink[] = [
     name: 'SHISO RONA',
   },
   {
-    description: 'George Dickel Rye Whiskey, Lustau Manzanilla Sherry, Amaro Nardini, strawberry-basil purée, ginger syrup, lemon, barrel-smoked cracked black pepper',
+    description:
+      'George Dickel Rye Whiskey, Lustau Manzanilla Sherry, Amaro Nardini, strawberry-basil purée, ginger syrup, lemon, barrel-smoked cracked black pepper',
     category: 'HOUSE CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393194352-GHGO30Y9DFTFXZ5J2WWZ/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/buck-to-the-future-cocktail.png?format=750w',
     name: 'BUCK TO THE FUTURE',
   },
   {
-    description: 'Brennivin Aquavit, RR Banana liqueur blend, RR Orgeat, lemon, toasted sesame oil, egg white, grated cinnamon',
+    description:
+      'Brennivin Aquavit, RR Banana liqueur blend, RR Orgeat, lemon, toasted sesame oil, egg white, grated cinnamon',
     category: 'HOUSE CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393226931-SPS8LDV9LPKDQPWMYLVG/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/jingu-bang-cocktail.png?format=750w',
     name: 'JINGU BANG',
   },
   {
-    description: 'Santa Teresa 1796 Rum, Plantation Pineapple Rum, Cruzan Blackstrap Rum, RR Allspice Dram, Borghetti espresso liqueur, cinnamon syrup, butter powder, acid phosphate, salt tincture, grated tonka bean',
+    description:
+      'Santa Teresa 1796 Rum, Plantation Pineapple Rum, Cruzan Blackstrap Rum, RR Allspice Dram, Borghetti espresso liqueur, cinnamon syrup, butter powder, acid phosphate, salt tincture, grated tonka bean',
     category: 'HOUSE CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393258246-L9BR1EBBY7CIGQIOKTZO/ke17ZwdGBToddI8pDm48kFY861m5mKYcfWL5Z32DsKN7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmmvxnduKw8oArHY0VgTI7pJi3sa8s_osguhYqnXZMolvtgYXSooo2Rq3VSIfwXFn1/butterbean-cocktail.png?format=750w',
     name: 'BUTTERBEAN',
   },
   {
-    description: 'Arette Blanco Tequila, red grape, thai basil, coconut, honey, jasmine water, lychee juice, verjus',
+    description:
+      'Arette Blanco Tequila, red grape, thai basil, coconut, honey, jasmine water, lychee juice, verjus',
     category: 'HOUSE CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393287530-FTKEY0P62QWPEZG2DMT7/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/too-little-too-late-cocktail.png?format=750w',
     name: 'TOO LITTLE, TOO LATE',
   },
   {
-    description: 'Almond-butter washed Monkey Shoulder Scotch, Smith & Cross Jamaican Rum, Lustau Amontillado Sherry, apple-toasted oat syrup, Abbott’s bitters, salt tincture, dehydrated apple, grated nutmeg',
+    description:
+      'Almond-butter washed Monkey Shoulder Scotch, Smith & Cross Jamaican Rum, Lustau Amontillado Sherry, apple-toasted oat syrup, Abbott’s bitters, salt tincture, dehydrated apple, grated nutmeg',
     category: 'HOUSE CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393317361-IGV3X8XR6L9MD4C43WJS/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/far-from-the-tree-cocktail.png?format=750w',
     name: 'FAR FROM THE TREE',
   },
   {
-    description: 'Takara Rice Shochu, Jameson Caskmates IPA edition, mint, tarragon, cinnamon syrup, verjus, shiso furikake flakes',
+    description:
+      'Takara Rice Shochu, Jameson Caskmates IPA edition, mint, tarragon, cinnamon syrup, verjus, shiso furikake flakes',
     category: 'HOUSE CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393340918-XFP0TGKS849R8V3XVSLY/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/run-the-jules-cocktail.png?format=750w',
     name: 'RUN THE JULES',
@@ -77,37 +83,43 @@ const drinks: Drink[] = [
     name: 'THE POETS MUSE',
   },
   {
-    description: 'Beefeater 24 Gin, St-Germain Elderflower cordial, St. George Absinthe, Stone IPA, lemon, lychee juice, thai basil syrup, grated nutmeg',
+    description:
+      'Beefeater 24 Gin, St-Germain Elderflower cordial, St. George Absinthe, Stone IPA, lemon, lychee juice, thai basil syrup, grated nutmeg',
     category: 'RR CLASSIC CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393409277-ARS3OYPSRH6OFGV7OKRI/ke17ZwdGBToddI8pDm48kL4WrIntsHuCODFzGytxs8sUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc16DU3BFhRKwbglPyBN4g1bpARv1fV81H3XjgGy5Kns_-TE50M7dbhLxfKwH73b6v/pharaohs-dance-cocktail.png?format=750w',
-    name: 'THE PHARAOH\'S DANCE',
+    name: "THE PHARAOH'S DANCE",
   },
   {
-    description: 'Arette Blanco Tequila, grapefruit, lime, cinnamon syrup, vanilla, himalayan salt, rose water',
+    description:
+      'Arette Blanco Tequila, grapefruit, lime, cinnamon syrup, vanilla, himalayan salt, rose water',
     category: 'RR CLASSIC CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393431391-OOXX24FTV53G1LYSSKA3/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/lonesome-dove-cocktail.png?format=750w',
     name: 'LONESOME DOVE',
   },
   {
-    description: 'Tullamore Dew Irish Whiskey, Amaro Montenegro, Nux Alpina walnut liqueur, Giffard Banane du Bresil, Demerara syrup, Chameleon cold brew coffee, salted-cinnamon cream',
+    description:
+      'Tullamore Dew Irish Whiskey, Amaro Montenegro, Nux Alpina walnut liqueur, Giffard Banane du Bresil, Demerara syrup, Chameleon cold brew coffee, salted-cinnamon cream',
     category: 'RR CLASSIC CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393464389-2QUP52JPPXSK56VT21KR/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/black-mountain-coffee-cocktail.png?format=750w',
     name: 'BLACK MOUNTAIN COFFEE',
   },
   {
-    description: 'Tequila Ocho Plata, Kappa Pisco, Junmai Sake, Foie-gras washed St-Germain, clarified lime & grapefruit, maguey sap, sweetgrass tincture, grapefruit oils',
+    description:
+      'Tequila Ocho Plata, Kappa Pisco, Junmai Sake, Foie-gras washed St-Germain, clarified lime & grapefruit, maguey sap, sweetgrass tincture, grapefruit oils',
     category: 'RR CLASSIC CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393484339-K24TQVD3ERSDYAQQU2PV/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/silver-meadows-cocktail.png?format=750w',
     name: 'SILVER MEADOWS',
   },
   {
-    description: 'Del Maguey Vida Mezcal, smoked black tea syrup, rr lavender bitters, tobacco essence, served on an ashtray with a flamed cinnamon stick',
+    description:
+      'Del Maguey Vida Mezcal, smoked black tea syrup, rr lavender bitters, tobacco essence, served on an ashtray with a flamed cinnamon stick',
     category: 'RR CLASSIC CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393511193-7FE1AJ5M6ABRCRWX2BK5/ke17ZwdGBToddI8pDm48kA-PsJZWWsmyESVEvbgWFq4UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc1QgWOMnaccjj5KO7lq4ZDmteqBhzPAo9DBgHHtICT17tzoG-l_uEktawEzWCyIer/cigar-box-cocktail-1.png?format=750w',
     name: 'CIGAR BOX',
   },
   {
-    description: 'Johnnie Walker Black Label, Talisker Storm, Smith & Cross Jamaican Rum, Barolo Chinato, Nux Alpina walnut liqueur, Abbott’s bitters, charcoal powder, edible liquid silver, served in a clove-smoked treasure chest',
+    description:
+      'Johnnie Walker Black Label, Talisker Storm, Smith & Cross Jamaican Rum, Barolo Chinato, Nux Alpina walnut liqueur, Abbott’s bitters, charcoal powder, edible liquid silver, served in a clove-smoked treasure chest',
     category: 'RR CLASSIC CREATIONS',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1540393531463-X9AU906C6J974PP2MGIC/ke17ZwdGBToddI8pDm48kNQomum8hh-D9xnZnpUZ8AEUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcGZlrC4TjQ-FyplI6Rf88VKNKqNTU6-z2ozAKmswislpbKZNdhIX0CwC-TrWZjFzq/black-pearl-cocktail-1.png?format=750w',
     name: 'BLACK PEARL',
@@ -115,14 +127,16 @@ const drinks: Drink[] = [
 
   {
     attribution: 'EARLY 1800s, UNITED STATES OF AMERICA',
-    description: 'Lustau Manzanilla & Amontillado Sherry, cinnamon syrup, fresh orange, mint, berries in season',
+    description:
+      'Lustau Manzanilla & Amontillado Sherry, cinnamon syrup, fresh orange, mint, berries in season',
     category: 'EARLY YEARS (PRE-1880)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539901615104-PC9B6071QJNIPOUZCJZV/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/sherry-cobbler-cocktail.png?format=750w',
     name: 'SHERRY COBBLER',
   },
   {
     attribution: 'LATE 1700s, STATE OF SCHUYLKILL, PENNSYLVANIA',
-    description: 'Lustau Solera Reserva Brandy de Jerez, Hamilton Pot Still Rum, Evan Williams Bonded Bourbon, Arton Crème de Peche, lemon, Demerara sryup, clove, nutmeg',
+    description:
+      'Lustau Solera Reserva Brandy de Jerez, Hamilton Pot Still Rum, Evan Williams Bonded Bourbon, Arton Crème de Peche, lemon, Demerara sryup, clove, nutmeg',
     category: 'EARLY YEARS (PRE-1880)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539901629251-ECMOGGPF3KWJRTF102N8/ke17ZwdGBToddI8pDm48kNJY73WX_z2KWnKnIaL-JG17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTms8XZniDFg5HlHOSxQKuMWfZ1ALgZAUw238-vNkEdyNQTf_v8DdCHcijH2ODHl6GP/Fish+House+Punch+%28Hero%29.png?format=750w',
     name: 'FISH HOUSE PUNCH',
@@ -136,14 +150,16 @@ const drinks: Drink[] = [
   },
   {
     attribution: 'LATE 1600s, SCOTLAND',
-    description: 'Appleton Estate Reserve Blend, Barsol Mosto Verde Pisco, Evan Williams Bonded Bourbon, Landy VS Cognac, Batavia Arrack, Kubler Absinthe, Peychaud’s bitters, whole milk whey, pineapple, lemon, chai tea, winter spices',
+    description:
+      'Appleton Estate Reserve Blend, Barsol Mosto Verde Pisco, Evan Williams Bonded Bourbon, Landy VS Cognac, Batavia Arrack, Kubler Absinthe, Peychaud’s bitters, whole milk whey, pineapple, lemon, chai tea, winter spices',
     category: 'EARLY YEARS (PRE-1880)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539901651812-DL474CRXNOK09HN1XR5Z/ke17ZwdGBToddI8pDm48kMsrJnUkGwthnfSn6I7Kz8B7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmGA_z5SblfeCUPs-h4IJqTTOb3VDbxjTZvk0ZHC8FjGtfP8SoHsBXrSHEd7Ob0chl/milk-punch-cocktail.png?format=750w',
     name: 'MILK PUNCH',
   },
   {
     attribution: 'LATE 1860s, SAN FRANCISCO',
-    description: 'Hayman’s Old Tom Gin, RR Sweet Vermouth, Luxardo Maraschino liqueur, Boker’s bitters',
+    description:
+      'Hayman’s Old Tom Gin, RR Sweet Vermouth, Luxardo Maraschino liqueur, Boker’s bitters',
     category: 'EARLY YEARS (PRE-1880)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539901662812-CAM8YI3SIPO21TDRCZBO/ke17ZwdGBToddI8pDm48kOVY4cr8Ro_WOELIhyTbIpwUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcdJlfA_4TDhhmEn4eYmjYzNpKEMYlBAHK_2SI3l91yGhfjsnilai3Sa2u-DcAqW5t/martinez-cocktail.png?format=750w',
     name: 'MARTINEZ',
@@ -157,14 +173,16 @@ const drinks: Drink[] = [
   },
   {
     attribution: 'MID 1800s, NEW ORLEANS',
-    description: 'George Dickel Rye Whiskey, Landy VS Cognac, Demerara syrup, Peychaud’s bitters, Kubler & St. George Absinthe, lemon oils',
+    description:
+      'George Dickel Rye Whiskey, Landy VS Cognac, Demerara syrup, Peychaud’s bitters, Kubler & St. George Absinthe, lemon oils',
     category: 'EARLY YEARS (PRE-1880)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539901726775-TTLG5WSPWHSBR2SKO95K/ke17ZwdGBToddI8pDm48kLU84FfysCLMEIDoAmUKjVB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTm3riagu2BiFyrYQbk7RCgVtbTYrzEK0_Mtug_-EustcUQB1Y6dQifw6LBRZj_CMo7/sazerac-cocktail.png?format=750w',
     name: 'SAZERAC',
   },
   {
     attribution: '1849, SAN FRANCISCO',
-    description: 'Your choice of spirit (scotch, bourbon, rum, gin, tequila) lit aflame with ginger snap syrup, hot water, Abbott\'s Bitters, citric acid, lemon peel, and grated nutmeg.',
+    description:
+      "Your choice of spirit (scotch, bourbon, rum, gin, tequila) lit aflame with ginger snap syrup, hot water, Abbott's Bitters, citric acid, lemon peel, and grated nutmeg.",
     category: 'EARLY YEARS (PRE-1880)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539901742598-O5X0VYOA3KQIAOBSV4FQ/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/blue-blazer-cocktail.png?format=750w',
     name: 'BLUE BLAZER',
@@ -207,21 +225,24 @@ const drinks: Drink[] = [
   },
   {
     attribution: '1920s, LIMA, PERU',
-    description: 'Kappa Pisco, lemon, lime, Amargo Chuncho bitters, sugar, egg white, hibiscus powder',
+    description:
+      'Kappa Pisco, lemon, lime, Amargo Chuncho bitters, sugar, egg white, hibiscus powder',
     category: 'TURN OF THE CENTURY (1880-1919)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902048345-RG7CO2LKL1CO06WITLTV/ke17ZwdGBToddI8pDm48kBEHd6G3W3YUYRDy0TAdm6p7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmlK64IJdGN2y0XZPiYxcy4RP6mpQZMFi6BkpQj-QAssnzoGxL5EnBuPRZ_mF-jhMy/pisco-sour-cocktail.png?format=750w',
     name: 'PISCO SOUR',
   },
   {
     attribution: '1916, NEW YORK',
-    description: 'Dolin Dry Vermouth, Lustau Manzanilla Sherry, Bénédictine, Kubler Absinthe, acid lactart, salt tincture, lemon oils',
+    description:
+      'Dolin Dry Vermouth, Lustau Manzanilla Sherry, Bénédictine, Kubler Absinthe, acid lactart, salt tincture, lemon oils',
     category: 'TURN OF THE CENTURY (1880-1919)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902074404-BBYL8RK82IXY94Y0JOI2/ke17ZwdGBToddI8pDm48kDfaFXEkMwuXFF9j1pm_E4sUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc0IRciyLkcfGLoqDG7lt8SlpBCIJveFHI4SrUbVPG7UUSBdfY2sNCxHGOorjo3JG4/chrysanthemum-cocktail.png?format=750w',
     name: 'CHRYSANTHEMUM',
   },
   {
     attribution: '1916, NEW YORK',
-    description: 'Jameson Caskmates Irish Whiskey, RR Sweet Vermouth, Green Chartreuse, Kubler Absinthe, Abbott’s bitters, orange bitters, salt tincture, orange oils',
+    description:
+      'Jameson Caskmates Irish Whiskey, RR Sweet Vermouth, Green Chartreuse, Kubler Absinthe, Abbott’s bitters, orange bitters, salt tincture, orange oils',
     category: 'TURN OF THE CENTURY (1880-1919)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902100362-937TXAOKOY9YYLUSS2H8/ke17ZwdGBToddI8pDm48kO2RtYYJOJQ2VGchhMQCArAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcsdFnJX0dDOKkYq_J0ke-MSENN6GeBLLsv62Ci4AxdaoNXv0ynMQ2uli80qX-W1Mc/tipperary-cocktail.png?format=750w',
     name: 'TIPPERARY',
@@ -236,42 +257,48 @@ const drinks: Drink[] = [
   },
   {
     attribution: '1921, HAVANA, CUBA',
-    description: 'Plantation 3-star White Rum, Luxardo maraschino liqueur, grapefruit & lime juice, grapefruit & lime oils',
+    description:
+      'Plantation 3-star White Rum, Luxardo maraschino liqueur, grapefruit & lime juice, grapefruit & lime oils',
     category: 'PROHIBITION (1920-1933)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902162299-IP2XHB5YOWMLEKVSF5OW/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/hemingway-daiquiri-cocktail.png?format=750w',
     name: 'HEMINGWAY DAIQUIRI',
   },
   {
     attribution: '1911, PHILADELPHIA',
-    description: 'Citadelle Gin, Dolin Dry Vermouth, raspberry syrup, lemon, lychee, egg white, salt tincture',
+    description:
+      'Citadelle Gin, Dolin Dry Vermouth, raspberry syrup, lemon, lychee, egg white, salt tincture',
     category: 'PROHIBITION (1920-1933)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902290301-OJB7Q1CZTW5LJKLNSNLP/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/clover-club-cocktail.png?format=750w',
     name: 'CLOVER CLUB',
   },
   {
     attribution: '1922, UNKNOWN',
-    description: 'Johnnie Walker Black Label, Ardbeg 10-yr, RR Sweet Vermouth, Cherry Heering, orange juice, citric acid, flamed orange peel',
+    description:
+      'Johnnie Walker Black Label, Ardbeg 10-yr, RR Sweet Vermouth, Cherry Heering, orange juice, citric acid, flamed orange peel',
     category: 'PROHIBITION (1920-1933)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902491675-UWOBBXCDMC2HENNP3U83/ke17ZwdGBToddI8pDm48kJrhARm_pJuHnY6kkCe5vOx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmznlprDaTI1mHW-vrYCnGj5du-SIUom1HmZQt_w2LhkTpaiZ7Cm0wyZGY9YTJnExg/blood-sand-cocktail.png?format=750w',
     name: 'BLOOD & SAND',
   },
   {
     attribution: '1910s, TORONTO',
-    description: 'George Dickel Rye Whiskey, Fernet Branca & Branca Menta, Cruzan Blackstrap Rum, Demerara syrup, Angostura bitters, salt tincture, orange oils',
+    description:
+      'George Dickel Rye Whiskey, Fernet Branca & Branca Menta, Cruzan Blackstrap Rum, Demerara syrup, Angostura bitters, salt tincture, orange oils',
     category: 'PROHIBITION (1920-1933)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902515869-JRODR8YUJ4JU572U1CCT/ke17ZwdGBToddI8pDm48kJDYaOfkLYPUDv0YXirsxM17gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmDe3UZ15kjdHigvkkMq0Q7KlwnUByUYVKVmgPfuZRbKDXmx8rhRvUQBshjUimoRgy/toronto-cocktail.png?format=750w',
     name: 'TORONTO',
   },
   {
     attribution: '1927, PARIS',
-    description: 'Evan Williams Bonded Bourbon, Campari, RR Sweet Vermouth, salt tincture, orange oils',
+    description:
+      'Evan Williams Bonded Bourbon, Campari, RR Sweet Vermouth, salt tincture, orange oils',
     category: 'PROHIBITION (1920-1933)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902542480-VEX64EYFEN0C8EKY9CS2/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/boulevardier-cocktail.png?format=750w',
     name: 'BOULEVARDIER',
   },
   {
     attribution: '1910s, NEW YORK CITY',
-    description: 'Johnnie Walker Black Label, Ardbeg 10-yr, Punt e Mes, Bénédictine, Abbott’s bitters, salt tincture, lemon oils',
+    description:
+      'Johnnie Walker Black Label, Ardbeg 10-yr, Punt e Mes, Bénédictine, Abbott’s bitters, salt tincture, lemon oils',
     category: 'PROHIBITION (1920-1933)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902575843-36MHL4TW4WZTKCNK493H/ke17ZwdGBToddI8pDm48kDfaFXEkMwuXFF9j1pm_E4sUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKc0IRciyLkcfGLoqDG7lt8SlpBCIJveFHI4SrUbVPG7UUSBdfY2sNCxHGOorjo3JG4/bobby-burns-cocktail.png?format=750w',
     name: 'BOBBY BURNS',
@@ -286,31 +313,35 @@ const drinks: Drink[] = [
   },
   {
     attribution: 'EARLY 1930s, HAVANA, CUBA',
-    description: 'Plantation 3-star White Rum, pineapple, lime, apricot brandy, Demerara syrup, pineapple gomme syrup, cassia & mace tincture',
+    description:
+      'Plantation 3-star White Rum, pineapple, lime, apricot brandy, Demerara syrup, pineapple gomme syrup, cassia & mace tincture',
     category: 'POST VOLSTEAD (1933-1950S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902650813-9UK1V0GBW12Q6N2L4NM6/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/hotel-nacional-cocktail.png?format=750w',
     name: 'HOTEL NACIONAL',
   },
   {
     attribution: '1930s, SANTIAGO DE CUBA',
-    description: 'Bacardi 8-yr Rum, Hamilton Pot Still Rum, Yellow Chartreuse, Demerara syrup, pineapple gomme syrup, lemon, lime, vanilla, mint, berries in season',
+    description:
+      'Bacardi 8-yr Rum, Hamilton Pot Still Rum, Yellow Chartreuse, Demerara syrup, pineapple gomme syrup, lemon, lime, vanilla, mint, berries in season',
     category: 'POST VOLSTEAD (1933-1950S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902678570-FY66XB8UELU83C23WLLA/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/daisy-de-santiago-cocktail.png?format=750w',
     name: 'DAISY DE SANTIAGO',
   },
   {
     attribution: '1910s, NEW YORK',
-    description: 'Appleton Estate Reserve Blend, Hamilton Pot Still Rum, Plymouth Sloe Gin, apricot brandy, grenadine, lime, cassia tincture',
+    description:
+      'Appleton Estate Reserve Blend, Hamilton Pot Still Rum, Plymouth Sloe Gin, apricot brandy, grenadine, lime, cassia tincture',
     category: 'POST VOLSTEAD (1933-1950S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902705642-EKVQ5ZXAH5IVG3Q4YRL8/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/millionaire-cocktail.png?format=750w',
     name: 'MILLIONAIRE',
   },
   {
     attribution: '1937, LONDON',
-    description: 'Evan Williams Bonded Bourbon, RR Allspice Dram, Demerara sryup, lime, cinnamon, Angostura bitters, lime oils',
+    description:
+      'Evan Williams Bonded Bourbon, RR Allspice Dram, Demerara sryup, lime, cinnamon, Angostura bitters, lime oils',
     category: 'POST VOLSTEAD (1933-1950S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902764499-ZOMFRSUKPP3E2VYVM0SC/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/lions-tail-cocktail.png?format=750w',
-    name: 'LION\'S TAIL',
+    name: "LION'S TAIL",
   },
   {
     attribution: '1930s, LONDON',
@@ -321,7 +352,8 @@ const drinks: Drink[] = [
   },
   {
     attribution: '1938, NEW ORLEANS',
-    description: 'George Dickel Rye Whiskey, Landy VS Cognac, Bénédictine, RR Sweet Vermouth, Angostura bitters, Peychaud’s bitters, salt tincture',
+    description:
+      'George Dickel Rye Whiskey, Landy VS Cognac, Bénédictine, RR Sweet Vermouth, Angostura bitters, Peychaud’s bitters, salt tincture',
     category: 'POST VOLSTEAD (1933-1950S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902823469-OARYKLBIUARFGRH5QPPE/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/vieux-carre-cocktail.png?format=750w',
     name: 'VIEUX CARRÉ',
@@ -329,49 +361,56 @@ const drinks: Drink[] = [
 
   {
     attribution: '1944, OAKLAND, CA',
-    description: 'Appleton Estate Reserve Blend, Hamilton Pot Still Rum, Grand Marnier, RR Orgeat, Lustau Amontillado Sherry, lime juice, saline',
+    description:
+      'Appleton Estate Reserve Blend, Hamilton Pot Still Rum, Grand Marnier, RR Orgeat, Lustau Amontillado Sherry, lime juice, saline',
     category: 'TIKI (1930S-1970S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902854680-RHKBQ3RSBI0IP8J1CMQG/ke17ZwdGBToddI8pDm48kJMtJ0E3sXj3odpC9QnMOfoUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcN-xagZKc9pmiLP-2mmBMi-GsQjX-lJeaoWMLi3JLhLRTQnMJpBL2vNsRwxGmAa1H/mai-tai-cocktail.png?format=750w',
     name: 'MAI TAI',
   },
   {
     attribution: '1967, LAGUNA BEACH',
-    description: 'Hendrick\'s Gin, Mosto Verde Pisco, Falernum, RR Orgeat, Liber & Co. passion fruit syrup, lemon, yuzu, cassia',
+    description:
+      "Hendrick's Gin, Mosto Verde Pisco, Falernum, RR Orgeat, Liber & Co. passion fruit syrup, lemon, yuzu, cassia",
     category: 'TIKI (1930S-1970S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539902879843-YZX5A96EXCOURZ78OWSL/ke17ZwdGBToddI8pDm48kL7lazlVAnU_XKFUOQPDGY57gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmSu0m39iikEdGzIcv3kKhBzWO8gcXrmqYXl-OqQOapK20OIe2o46eOHTNh4osMsZK/saturn-cocktail.png?format=750w',
     name: 'SATURN',
   },
   {
     attribution: '1920s, TRINIDAD',
-    description: 'El Dorado 5-yr Rum, Plantation O.F.T.D. Rum, mint, lime, sugar, Angostura bitters',
+    description:
+      'El Dorado 5-yr Rum, Plantation O.F.T.D. Rum, mint, lime, sugar, Angostura bitters',
     category: 'TIKI (1930S-1970S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539903653515-MUSUU96H0ENRYWI9AD5X/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/queens-park-swizzle-cocktail.png?format=750w',
-    name: 'QUEEN\'S PARK SWIZZLE',
+    name: "QUEEN'S PARK SWIZZLE",
   },
   {
     attribution: '1978, MALAYSIA',
-    description: 'Cruzan Blackstrap Rum, El Dorado 5-yr Rum, Campari, Demerara sugar, pineapple, lime, powdered cinnamon',
+    description:
+      'Cruzan Blackstrap Rum, El Dorado 5-yr Rum, Campari, Demerara sugar, pineapple, lime, powdered cinnamon',
     category: 'TIKI (1930S-1970S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539903692449-8PRB72I0DJLKY0N14YZD/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/jungle-bird-cocktail.png?format=750w',
     name: 'JUNGLE BIRD',
   },
   {
     attribution: '1970s, JOST VAN DYKE, BRITISH VIRGIN ISLANDS',
-    description: 'Pusser’s Royal Navy Rum, Hamilton Pot Still Rum, pineapple, orange, coconut cream, toasted coconut, grated nutmeg',
+    description:
+      'Pusser’s Royal Navy Rum, Hamilton Pot Still Rum, pineapple, orange, coconut cream, toasted coconut, grated nutmeg',
     category: 'TIKI (1930S-1970S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539903733460-7EO7AIOA38YU62SR5OYC/ke17ZwdGBToddI8pDm48kMaJVg1gwgOLzshPRyNBsHAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcI0ZCvr1gRejwMNWbZ47ueq8XQyD7ejw6uI1dWlX_vgQLXWp5IK6axOS7StOuWd1w/painkiller-cocktail.png?format=750w',
     name: 'PAINKILLER',
   },
   {
     attribution: '1930s, LONDON',
-    description: 'RR Tiki Rum blend, Gardenia mix, Falernum, lime, orange, Angostura Bitters, salt tincture, powdered cinnamon, black pearl gumball',
+    description:
+      'RR Tiki Rum blend, Gardenia mix, Falernum, lime, orange, Angostura Bitters, salt tincture, powdered cinnamon, black pearl gumball',
     category: 'TIKI (1930S-1970S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539903773980-T659M39WGW706YARM9WN/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/pearl-diver-cocktail.png?format=750w',
     name: 'PEARL DIVER',
   },
   {
     attribution: '1934, HOLLYWOOD',
-    description: 'RR Tiki Rum blend, Donn’s mix, Falernum, lime, grenadine, Angostura Bitters, caramelized Absinthe, served in a skull with flamed cinnamon powder',
+    description:
+      'RR Tiki Rum blend, Donn’s mix, Falernum, lime, grenadine, Angostura Bitters, caramelized Absinthe, served in a skull with flamed cinnamon powder',
     category: 'TIKI (1930S-1970S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539903800255-BA7XLS7C20ZYE9QCO1XE/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/zombie-cocktail.png?format=750w',
     name: 'ZOMBIE',
@@ -386,49 +425,56 @@ const drinks: Drink[] = [
   },
   {
     attribution: '1984, LONDON',
-    description: 'Citadelle Gin, Clear Creek Loganberry liqueur, blackberry, lemon, clove tincture, grated cinnamon',
+    description:
+      'Citadelle Gin, Clear Creek Loganberry liqueur, blackberry, lemon, clove tincture, grated cinnamon',
     category: 'DARK AGES (1950S-1990S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539903915636-76FIEXECGVXKXGIT2KQE/ke17ZwdGBToddI8pDm48kL8r2qtZwC-Bz2D-k5NcoZ0UqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcObKjyvnHGDjNX7nZ_U7nXouWmniisT8twLgH1e1VvcVVy6mtLuy3YbeeRo39ttvL/bramle-cocktail.png?format=750w',
     name: 'BRAMBLE',
   },
   {
     attribution: '1972, LONG ISLAND',
-    description: 'Zubrowka Vodka, Citadelle Dry Gin, Arette Blanco Tequila, Bacardi Superior White Rum, RR Triple Sec, maguey sap syrup, lemon, cola, marasca cherry',
+    description:
+      'Zubrowka Vodka, Citadelle Dry Gin, Arette Blanco Tequila, Bacardi Superior White Rum, RR Triple Sec, maguey sap syrup, lemon, cola, marasca cherry',
     category: 'DARK AGES (1950S-1990S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539903952656-4QZFM12MG49G9AAQTFD8/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/long-island-iced-tea-cocktail.png?format=750w',
     name: 'LONG ISLAND ICED TEA',
   },
   {
     attribution: '1898, OAKLAND',
-    description: 'Plymouth Sloe Gin, Plymouth Gin, Topo Chico, lemon, lime, Angostura bitters, egg white, violet powder',
+    description:
+      'Plymouth Sloe Gin, Plymouth Gin, Topo Chico, lemon, lime, Angostura bitters, egg white, violet powder',
     category: 'DARK AGES (1950S-1990S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539903981634-ZTEWA2TIYHRKC5V3WNSH/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/sloe-gin-fizz-cocktail.png?format=750w',
     name: 'SLOE GINN FIZZ',
   },
   {
     attribution: 'ORIGIN UNKNOWN',
-    description: 'Lazzaroni Amaretto, Evan Williams Bonded Bourbon, Lustau Amontillado Sherry, Demerara syrup, lemon, lime, hazelnut oil, egg white',
+    description:
+      'Lazzaroni Amaretto, Evan Williams Bonded Bourbon, Lustau Amontillado Sherry, Demerara syrup, lemon, lime, hazelnut oil, egg white',
     category: 'DARK AGES (1950S-1990S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539904033164-WWMJJZZRNXJ6LYXI5OVY/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/amaretto-sour-cocktail.png?format=750w',
     name: 'AMARETTO SOUR',
   },
   {
     attribution: '1953, LONDON',
-    description: 'Citadelle Dry Gin, 42 Below Vodka, Cocchi Americano, Routin Blanc Vermouth, salt tincture, lemon peel',
+    description:
+      'Citadelle Dry Gin, 42 Below Vodka, Cocchi Americano, Routin Blanc Vermouth, salt tincture, lemon peel',
     category: 'DARK AGES (1950S-1990S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539904067466-6AL83V4TCZP6IJFZ35R7/ke17ZwdGBToddI8pDm48kM5YqguUZQ91kSb5Zt_IDHB7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTm_lZ4Ocf6Z8CIlW7I6Pbjk1zmxLxM9Voq-DQekDf9GmO1rSov76sV7YM7VMP_6Lti/vesper-cocktail.png?format=750w',
     name: 'VESPER',
   },
   {
     attribution: 'LATE 1980s, LONDON',
-    description: '42 Below Vodka, Borghetti espresso liqueur, J. Rieger Caffè Amaro, Tempus Fugit crème de cacao, macadamia liqueur, cream, ground coffee bean',
+    description:
+      '42 Below Vodka, Borghetti espresso liqueur, J. Rieger Caffè Amaro, Tempus Fugit crème de cacao, macadamia liqueur, cream, ground coffee bean',
     category: 'DARK AGES (1950S-1990S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539904104863-BU3WXTO380WZ2QMIJNUI/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/espresso-martini-cocktail.png?format=750w',
     name: 'ESPRESSO MARTINI',
   },
   {
     attribution: '1950s, MILWAUKEE',
-    description: '42 Below Vodka, Tempus Fugit crème de cacao, Tempus Fugit crème de noyaux, salted-cinnamon cream, acid lactart, citric acid, Peychaud’s bitters, cassia tincture',
+    description:
+      '42 Below Vodka, Tempus Fugit crème de cacao, Tempus Fugit crème de noyaux, salted-cinnamon cream, acid lactart, citric acid, Peychaud’s bitters, cassia tincture',
     category: 'DARK AGES (1950S-1990S)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539904142146-XNT2D84Y5Y72ZACYOSQQ/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/pink-squirrel-cocktail.png?format=750w',
     name: 'PINK SQUIRREL',
@@ -443,21 +489,24 @@ const drinks: Drink[] = [
   },
   {
     attribution: 'JOAQUÍN SIMÓ, 2011, DEATH & CO., NEW YORK CITY',
-    description: 'Del Maguey Vida Mezcal, Aperol, Yellow Chartreuse, lime, mole bitters, long pepper tincture',
+    description:
+      'Del Maguey Vida Mezcal, Aperol, Yellow Chartreuse, lime, mole bitters, long pepper tincture',
     category: 'MODERN CLASSICS (2000S-PRESENT)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539904207650-09KUA20L2QYZXG1QX5C4/ke17ZwdGBToddI8pDm48kO2RtYYJOJQ2VGchhMQCArAUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcsdFnJX0dDOKkYq_J0ke-MSENN6GeBLLsv62Ci4AxdaoNXv0ynMQ2uli80qX-W1Mc/naked-famous-cocktail.png?format=750w',
     name: 'NAKED & FAMOUS',
   },
   {
     attribution: 'MARCOVALDO DIONYSOS, 2002, SAN FRANCISCO, CALIFORNIA',
-    description: 'Green Chartreuse, Hamilton Pot Still Rum, Falernum, tarragon, mint, lime, pineapple, salt tincture',
+    description:
+      'Green Chartreuse, Hamilton Pot Still Rum, Falernum, tarragon, mint, lime, pineapple, salt tincture',
     category: 'MODERN CLASSICS (2000S-PRESENT)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539904236051-38P27W2JZ5VK0ECZ3ETU/ke17ZwdGBToddI8pDm48kLMWWKSHSkjHs78XdQFAwwUUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcAxC7vTh2A1XS1A1iF3AINaX3Ac_JcgAE6r8vl9HFZoNHZ8ikw86ishlp4DjA4pAj/chartreuse-swizzle-cocktail.png?format=750w',
     name: 'CHARTREUSE SWIZZLE',
   },
   {
     attribution: 'AUDREY SAUNDERS, 2004, PEGU CLUB, NEW YORK CITY',
-    description: 'El Dorado 5-yr Rum, Brut Champagne, mint, lime, vanilla, sugar, Angostura bitters',
+    description:
+      'El Dorado 5-yr Rum, Brut Champagne, mint, lime, vanilla, sugar, Angostura bitters',
     category: 'MODERN CLASSICS (2000S-PRESENT)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539904276108-M8KI76YJRDNTC73QF0YY/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/old-cuban-cocktail.png?format=750w',
     name: 'OLD CUBAN',
@@ -478,14 +527,16 @@ const drinks: Drink[] = [
   },
   {
     attribution: 'CHAD SOLOMON, 2006, PEGU CLUB, NEW YORK CITY',
-    description: 'George Dickel Rye Whiskey, Dolin Dry Vermouth, Luxardo maraschino liqueur, Cynar, salt tincture, lemon oils',
+    description:
+      'George Dickel Rye Whiskey, Dolin Dry Vermouth, Luxardo maraschino liqueur, Cynar, salt tincture, lemon oils',
     category: 'MODERN CLASSICS (2000S-PRESENT)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539904416241-FGAFV5FHJK4RXCAMKPWS/ke17ZwdGBToddI8pDm48kNh0UjeUEkELt9ag3xjN8ZIUqsxRUqqbr1mOJYKfIPR7LoDQ9mXPOjoJoqy81S2I8N_N4V1vUb5AoIIIbLZhVYxCRW4BPu10St3TBAUQYVKcXxswc8EfUguKXjVAL-zZj3SPOTKQj22ij1PXU-aQ_B8yIajLlultWCmudePt8wDK/bensonhurst-cocktail.png?format=750w',
     name: 'BENSONHURST',
   },
   {
     attribution: 'PHIL WARD, 2007, DEATH & CO., NEW YORK CITY',
-    description: 'Arette Reposado Tequila, Del Maguey Vida Mezcal, maguey sap syrup, mole bitters, Angostura bitters, cassia tincture, flamed orange peel',
+    description:
+      'Arette Reposado Tequila, Del Maguey Vida Mezcal, maguey sap syrup, mole bitters, Angostura bitters, cassia tincture, flamed orange peel',
     category: 'MODERN CLASSICS (2000S-PRESENT)',
     img: 'https://images.squarespace-cdn.com/content/v1/5821fc5ed1758ec12ed422ac/1539904386590-G2OEZDDRYQMVN2FDZFTI/ke17ZwdGBToddI8pDm48kCXTVg0ByO0p77g6bpZL7-t7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QHyNOqBUUEtDDsRWrJLTmk1-G7qBQURsAV0YbehnHbRDRrnqU5FQwk42o6RTKaQtzBVvYobBR3tqYNOSVibD-/oaxaca-old-fashioned-cocktail.png?format=750w',
     name: 'OAXACA OLD FASHIONED',
@@ -499,6 +550,30 @@ const drinks: Drink[] = [
   },*/
 ]
 
-export function random() {
-  return drinks[Math.floor(Math.random() * drinks.length)]
+export function random(exclude?: Drink): Drink {
+  let drink: Drink
+  do {
+    drink = drinks[Math.floor(Math.random() * drinks.length)]
+  } while (exclude && drink.name === exclude.name && drinks.length > 1)
+  return drink
+}
+
+export function findByName(name: string): Drink | undefined {
+  const lower = name.toLowerCase()
+  return drinks.find((d) => d.name.toLowerCase() === lower)
+}
+
+export function categories(): string[] {
+  return [...new Set(drinks.map((d) => d.category))].sort()
+}
+
+export function randomFiltered(category: string | null, exclude?: Drink): Drink {
+  if (!category) return random(exclude)
+  const pool = drinks.filter((d) => d.category === category)
+  if (pool.length === 0) return random(exclude)
+  let drink: Drink
+  do {
+    drink = pool[Math.floor(Math.random() * pool.length)]
+  } while (exclude && drink.name === exclude.name && pool.length > 1)
+  return drink
 }
